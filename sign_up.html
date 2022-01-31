@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Sign Up</title>
+    <style>
+   #form{
+       /* padding: 40%; */
+    border: 1px solid #2d2d2d;
+    /*margin: 40%;*/
+    /* margin-top: 20%;
+    margin-bottom: 20%; */
+    /* box-sizing: border-box; */
+    color: aliceblue;
+    max-width: 20%;
+   }
+   button:hover{
+        background-color: orange;
+        color: black;
+        font-size: 26px;
+   }
+   td{
+       color: rgb(255, 255, 255);
+   }
+   body{
+       background-image: url(https://www.gazabnews.com/wp-content/uploads/2017/06/Indian-Flag-Wallpapers-15-Auguest.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+           background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   input:focus{
+       outline: none;
+       /* color: wheat; */
+       background-color: rgba(70, 131, 180, 0.35);
+   }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <form >
+            <h2>Create Gmail Account</h2>
+            <table>
+                <tr>
+                    <td><label for="username">Full Name:</label></td>
+                    <td><input type="text" name="username"></input></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">Contact Number:</label></td>
+                    <td><input type="number" name="mobile"></input></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" name="email"></input></td>
+                </tr>
+                <tr>
+                    <td><button type="reset" value="Reset">Reset</button></td>
+                    <td><button type="submit" value="Submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
